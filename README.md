@@ -1,113 +1,66 @@
-# Retail-Sales-Analysis
-Project Overview
+**Retail Sales Analysis**
 
-This project demonstrates an end-to-end retail sales analysis workflow, starting from data exploration using MySQL and ending with a basic Power BI dashboard for visual communication of insights.
+This project is an end-to-end exploratory data analysis of a retail sales dataset using MySQL and Power BI, focused on building strong fundamentals in data analysis rather than heavy modeling or advanced DAX. The dataset was first loaded into MySQL, where core EDA queries were written to understand sales trends, category performance, customer behavior, and overall business metrics using aggregations, filtering, and grouping. To complement the SQL analysis, the same dataset was imported into Power BI via Excel to design a basic, clean dashboard using only native visuals and simple fields, avoiding DAX to keep the focus on data understanding and visualization logic. The Power BI report presents key insights such as sales distribution by category, revenue trends over time, and product-level performance in an intuitive, business-friendly format. This project demonstrates my ability to work across the full analytics workflow - from raw data exploration in SQL to insight communication through dashboards - and serves as a foundational portfolio project highlighting analytical thinking, structured querying, and visualization skills.
 
-The goal of the project is to understand sales performance, product contribution, customer behavior, and time-based trends using structured queries and simple visualizations.
+**(EDA) Questions** 
 
-Dataset Description
+1) How many total transactions are present in the retail sales dataset?
 
-Data Type: Retail transaction data
+2) How many unique customers have made purchases?
 
-Rows: ~1,000 transactions
+3) What is the total revenue generated across all transactions?
 
-Grain: One row represents one retail transaction
+4) What is the average revenue per transaction?
 
-Key Columns:
+5) What is the total quantity of products sold?
 
-transaction_id – Unique transaction identifier
+6) How does total revenue vary across different product categories?
 
-date – Date of purchase
+7) Which product categories have the highest and lowest sales volume (units sold)?
 
-customer_id – Customer identifier
+8) What is the average unit price for each product category?
 
-gender – Customer gender
+9) How do monthly sales trends change over time?
 
-age – Customer age
+10) Which months record the highest and lowest total revenue?
 
-product_category – Product category (Electronics, Clothing, Beauty)
+11) How does revenue distribution differ by customer gender?
 
-quantity – Units purchased
+12) What is the average quantity purchased per transaction?
 
-price_per_unit – Price per unit
+13) Which product categories contribute the most to overall revenue percentage-wise?
 
-total_amount – Total transaction value
+14) Is there a noticeable relationship between unit price and quantity sold?
 
-Project Workflow
-1️ Data Exploration using MySQL
+15) What is the revenue contribution of each category over time (monthly breakdown)?
+    
 
-The dataset was first imported into MySQL to perform exploratory data analysis using SQL queries.
+ **Exploratory Analysis Questions – Power BI**
+ 
+I. What is the overall total sales amount generated in the dataset?
 
-Key analysis performed:
+II. How are total sales distributed across different product categories?
 
-Validation of total transactions and unique customers
+III. Which product categories contribute the highest and lowest revenue?
 
-Revenue calculations and monthly sales trends
+IV. How many units are sold by each product category?
 
-Product category performance analysis
+V. How does sales performance vary month-by-month?
 
-Customer spending patterns and repeat behavior
+VI. Which months show peak and low sales activity?
 
-Demographic analysis by gender and age groups
+VII. How does customer gender distribution affect total sales?
 
-Identification of high-value transactions
+VIII. What is the quantity sold trend over time?
 
-SQL was used to validate assumptions and understand the data structure before visualization.
+IX. Which product categories dominate overall sales volume?
 
-2️ Data Visualization using Power BI
+X. How do unit prices compare across different product categories?
 
-After completing SQL-based EDA, the data was imported into Power BI via Excel to build a basic, single-page dashboard.
+XI. What is the proportion of total sales contributed by each category?
 
-Dashboard focus:
+XII. How consistent are sales across different time periods?
 
-High-level sales performance overview
 
-Product category contribution
-
-Revenue trends over time
-
-Units sold comparison
-
-Gender-based revenue split
-
-Only built-in Power BI aggregations (Sum, Count, Average) were used. No DAX or advanced calculations were applied.
-
-Dashboard Visuals Included
-
-KPI Cards
-
-Total Revenue
-
-Total Transactions
-
-Average Transaction Value
-
-Charts
-
-Revenue by Product Category (Column Chart)
-
-Monthly Revenue Trend (Line Chart)
-
-Units Sold by Product Category (Bar Chart)
-
-Revenue by Gender (Column Chart)
-
-Filters
-
-Product Category
-
-Date
-
-Key Insights
-
-Revenue contribution varies significantly across product categories
-
-Sales show noticeable fluctuations over different months
-
-Product categories differ in volume-driven vs value-driven performance
-
-Revenue distribution between genders is relatively balanced
-
-A small number of transactions contribute disproportionately to total revenue
 
 <img width="667" height="374" alt="Screenshot 2026-01-16 130915" src="https://github.com/user-attachments/assets/bf2dcbbc-761f-4add-a54b-d0dfe39dd2ff" />
